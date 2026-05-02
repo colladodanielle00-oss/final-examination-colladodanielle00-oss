@@ -44,7 +44,7 @@
       </div>
 
       <div id="success-toast" class="toast-hidden">
-        Registration Successful!
+        Registration successfully!
       </div>
     </form>   
   </section>

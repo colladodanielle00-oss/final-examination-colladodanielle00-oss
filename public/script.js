@@ -10,7 +10,6 @@ function showSection(sectionID){
     }
 }
 
-// Attach button events
 document.getElementById("createBtn").addEventListener("click", () => showSection("create"));
 document.getElementById("readBtn").addEventListener("click", () => showSection("read"));
 document.getElementById("updateBtn").addEventListener("click", () => showSection("update"));

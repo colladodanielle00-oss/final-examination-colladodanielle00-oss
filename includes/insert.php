@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $stmt->bind_param("sssss", $surname, $name, $middlename, $address, $contact);
 
   if ($stmt->execute()) {
-    echo "New student record created successfully!";
+    echo "New student record created successful!";
   } else {
     echo "Error: " . $stmt->error;
   }
